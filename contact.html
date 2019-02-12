@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+        <!-- Our CSS stylesheet file -->
+        <link rel="stylesheet" type="text/css" href="D:\BE final pro\Portfolio\Style.css" >
+                <link rel="stylesheet" type="text/css" href="D:\BE final pro\Portfolio\pnc.css" >
+
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+        
+    </head>
+
+    <body>
+        <header>
+             <div class="my_menu" >
+
+            <div class="navtop" id="mynavtop">
+
+                    <a  href="Portfolio.html" style="color:#fff">Home</a>
+                    <a href="about.html" style="color:#fff">About Me</a>
+                    <a href="education.html" style="color:#fff">Education</a>
+                    <a href="skill.html" style="color:#fff">Skills</a>
+                    <a href="project.html" style="color:#fff">Project & Achievements</a>
+                    <a class="active" href="contact.html" style="color:#fff">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>   
+                    <script>
+                        function myFunction() {
+                        var x = document.getElementById("mynavtop");
+                        if (x.className === "navtop") {
+                         x.className += " responsive";
+                        } 
+                         else {
+                             x.className = "navtop";
+                             }
+                        }
+                    </script> 
+    
+
+    </header>
+
+
+<!--____________Contact Me____________ -->
+<div id="contact" class="container-fluid contact">
+<h2 class="text-center">Contact Me</h2>
+<div  class="text-center">
+<i style="font-size:28px" class="fa">&#xf003; </i> ratneshd786@gmail.com 
+<br><br><br><br>
+
+<!--_________leve space before___follow Me____________ -->
+
+<div id="follow" class="container-fluid">
+</div>
+<!--____________follow Me____________ -->
+<div class="container-fluid follow text-center">
+<h2>Follow Me</h2><br>
+  
+   <div class="container logo_part1">
+       <div class="col-sm-4"></div>
+       <div class="col-sm-2">
+            <a href="https://www.linkedin.com/in/ratnesh-dubey-601147134/">
+              <i id="linkedin" class="fa fa-linkedin-square" style="font-size:48px;color:#0073b1;"></i>        
+            </a>
+       </div>
+       <div class="col-sm-2">
+            <a href="https://github.com/susmehul">
+               <i id="github" class="fa fa-github" style="font-size:48px;color:white"></i>
+            </a>
+       </div>
+       <div class="col-sm-4"></div>
+   </div>
+ <div class="container logo_part2" >
+   
+   <div class="col-sm-3">
+   </div>
+
+   <div class="col-sm-3">
+    <a href="https://www.codechef.com/users/ratneshd" ><img id="codechef-logo" src="images/codechef.png"> </a>
+   </div>
+
+   <div class="col-sm-3">
+       <a href="https://www.hackerrank.com/"><img id="hackerrank-logo" src="images/hackerrank.png"></a>
+   </div>
+
+   <div class="col-sm-3">
+   </div>
+
+<!--
+   <div class="col-sm-3">
+       <img id="codeforces-logo" src="images/codeforces.png">
+   </div>
+
+   <div class="col-sm-3">
+       <img id="hackerearth-logo" src="images/hackerearth.png">
+   </div>
+-->
+  </div>
+ </div>
+</div>
+</div>
+           
+    </body>
+</html>

@@ -1,0 +1,178 @@
+/*-------------------------------------------------Expe & Awards---------------------------------------------------------------------*/
+body html{
+    margin: 0;
+    padding: 0;
+   
+}
+h1 {
+
+  word-break: break-all;
+}
+.main-div{
+    background-color:#212529;
+    color:#fff;
+}
+.main-div h2{
+    padding-top: 31px;
+    padding-bottom: 21px;
+}
+#main_container{
+      background-color:#212529;
+}
+/* Expe.. accordion    ------------------------------------------------------- */
+
+.accordion {
+    background-color: #212529;
+    color: #fff;
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: none;
+    padding-right: none;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin:none;
+    text-align:left;
+    border-bottom: 1px solid #373d44;
+}
+
+.active1, .accordion:hover {
+    background-color: #f05f40;
+    color: #fff;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion:after {
+    content:'\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 9px;
+    color: #fff;
+    float: right;
+    margin-left: 0px;
+}
+
+.active1:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.panel a{
+    color:#212529;
+}
+.panel a:hover{
+    color:#1b4fa3; 
+    text-decoration: none;
+}
+
+/*----------------------------Blank space before- for nav bar link to display correctly:Follow Me-------------------------------------- */
+/*#follow{
+    height: 61px;
+    background-color: #fff;
+}
+/*------------------------------Follow Me-------------------------------------- */
+/*
+.follow{
+    background-color:#212529 ;
+    color:white;
+    padding-bottom: 91px;
+    padding-top:41px;
+     
+}
+
+
+.logo_part1 .col-sm-2{
+    border-top:2px solid #373d44;
+}
+@media(max-width:768px){
+.logo_part1 .col-sm-2{
+    border-top:0px;
+}
+}
+
+#linkedin{
+    transition: transform 1.1s;
+    margin-top: 51px;
+    padding-bottom:11px;
+    
+}
+#github{
+    transition: transform 1.1s;
+    margin-top: 51px;
+    padding-bottom:11px;
+
+}
+#linkedin:hover{
+    transform: scale(1.5);
+}
+#github:hover{
+   transform: scale(1.5);
+}
+#github{
+ padding-left:2%;
+}
+
+
+
+.logo_part2{
+    margin-top:51px;
+    border-top:2px solid #373d44;
+    background-color: 212529;
+}
+
+.logo_part2 .col-sm-3{
+    padding-top:41px;
+}
+#codechef-logo{
+    margin-top:21px;
+    width:67%; 
+    transition: transform 1.1s;
+}
+#codechef-logo:hover{
+   transform: scale(1.2);
+}
+
+#hackerrank-logo{
+    height:13%;
+    margin-top:11px;
+    transition: transform 1.1s; 
+}
+#hackerrank-logo:hover{   
+   transform: scale(1.2);
+}
+
+#codeforces-logo{
+    width:71%;
+    height:6%;
+    margin-top:35px;
+    transition: transform 1.1s;
+}
+#codeforces-logo:hover{   
+   transform: scale(1.2);
+}
+
+#hackerearth-logo{
+    width:71%;
+    height:6%;
+    margin-top:41px;
+    transition: transform 1.1s;
+}
+#hackerearth-logo:hover{
+   transform: scale(1.2);
+}
+
+.contact{
+    height: 23%;
+    color:white;
+    background-color:#212529;
+    
+}
+.contact h2{
+    padding-top:21px;
+    
+}*/
